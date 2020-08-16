@@ -13,8 +13,24 @@
     margin-top: 10px;
 }
 
+.head_main_container {
+    background-color: #1174D0;
+    color: white;
+    height: 120px;
+}
+
+.navbar {
+    border-radius: 3px 3px 3px 3px;
+    position: relative;
+    top: 4px;
+}
+
 @media (max-width: 452px) {
     .details {
         font-size: 11px;
+    }
+
+    .head_main_container {
+        height: 190px;
     }
 }
