@@ -25,6 +25,20 @@
     top: 4px;
 }
 
+.register_button {
+    background-color: #2DA9EC;
+    color: whitesmoke;
+}
+
+.top-left {
+    position: absolute;
+    top: 220px;
+    left: 120px;
+    font-size: 47px;
+    font-weight: 500;
+  }
+
+
 @media (max-width: 452px) {
     .details {
         font-size: 11px;
@@ -32,5 +46,10 @@
 
     .head_main_container {
         height: 190px;
+    }
+
+    .top-left {
+        display: none;
+        font-weight: bold;
     }
 }
