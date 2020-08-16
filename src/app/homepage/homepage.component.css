@@ -12,3 +12,9 @@
 .navbar{
     margin-top: 10px;
 }
+
+@media (max-width: 452px) {
+    .details {
+        font-size: 11px;
+    }
+}
