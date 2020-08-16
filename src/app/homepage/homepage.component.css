@@ -38,6 +38,10 @@
     font-weight: 500;
   }
 
+.card {
+    width: 15rem; 
+    height: 13rem;
+}
 
 @media (max-width: 452px) {
     .details {
@@ -51,5 +55,10 @@
     .top-left {
         display: none;
         font-weight: bold;
+    }
+
+    .card {
+        margin-top: 20px;
+        margin-left: 90px;
     }
 }
