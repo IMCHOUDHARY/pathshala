@@ -1,0 +1,52 @@
+.logo{
+    font-size: 25px;
+    padding-left: 5px;
+    vertical-align: 5px;
+}
+
+.logo_1{
+    margin-top: 4px;
+    padding-right: 10px;
+}
+
+.navbar{
+    margin-top: 10px;
+}
+
+.head_main_container {
+    /* background-color: #1174D0; */
+    background-color: #043c6d;
+    color: white;
+    height: 120px;
+}
+
+.navbar {
+    border-radius: 3px 3px 3px 3px;
+    position: relative;
+    top: 4px;
+}
+
+.nav-link{
+    font-size: 20px;
+    margin-left: 8px;
+}
+
+@media (max-width: 452px) {
+    .details {
+        font-size: 11px;
+    }
+
+    .head_main_container {
+        height: 190px;
+    }
+
+    .top-left {
+        display: none;
+        font-weight: bold;
+    }
+
+    .card {
+        margin-top: 20px;
+        margin-left: 90px;
+    }
+}
