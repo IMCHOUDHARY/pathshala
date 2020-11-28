@@ -9,6 +9,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 // import { MatSidenavModule } from '@angular/material';
 import {MatIconModule} from '@angular/material/icon';
 import {MatSidenavModule} from '@angular/material/sidenav';
+import { LoginComponent } from './login/login.component';
+import { SignupComponent } from './signup/signup.component';
 
 // const material = [
 //   MatSidenavModule
@@ -16,14 +18,18 @@ import {MatSidenavModule} from '@angular/material/sidenav';
 
 const routes: Routes = [
   { path: '', component: HomepageComponent},
-  { path: 'videos', component: VideosComponent}
+  { path: 'videos', component: VideosComponent},
+  { path: 'login', component: LoginComponent},
+  { path: 'signup', component: SignupComponent}
 ];
 
 @NgModule({
   declarations: [
     AppComponent,
     HomepageComponent,
-    VideosComponent
+    VideosComponent,
+    LoginComponent,
+    SignupComponent
   ],
   imports: [
     BrowserModule,

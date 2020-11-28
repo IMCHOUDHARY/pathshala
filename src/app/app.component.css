@@ -31,6 +31,12 @@
     margin-left: 8px;
 }
 
+.footer_main_container {
+    /* background-color: #1174D0; */
+    background-color: #043C6D;
+    color: white;
+}
+
 @media (max-width: 452px) {
     .details {
         font-size: 11px;
